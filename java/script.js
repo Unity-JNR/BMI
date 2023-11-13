@@ -12,6 +12,6 @@ btn.addEventListener('click',function(){
 
 
 function BMI(w,h){
-let sum = w/h;
+let sum = w/(h*h);
 document.getElementById('BMI').value = sum.toFixed(2)
 }
